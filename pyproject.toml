@@ -1,0 +1,15 @@
+[project]
+name = "dduf"
+description = "Run DDUF in ComfyUI - powered by Diffusers."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["# diffusers[torch]", "accelerate", "transformers", "safetensors", "omegaconf"]
+
+[project.urls]
+Repository = "https://github.com/Vaibhavs10/ComfyUI-DDUF"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-DDUF"
+Icon = ""
